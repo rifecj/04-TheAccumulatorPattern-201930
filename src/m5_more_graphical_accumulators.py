@@ -246,8 +246,8 @@ def draw_circles_from_rectangle(m, n, rectangle, window):
         top_y=rectangle.corner_1.y
         bottom_y=rectangle.corner_2.y
     else:
-        top_y=rectangle.corner_2.x
-        bottom_y = rectangle.corner_1.x
+        top_y=rectangle.corner_2.y
+        bottom_y = rectangle.corner_1.y
 
     #horizontal filled in circles
     for k in range(m):
